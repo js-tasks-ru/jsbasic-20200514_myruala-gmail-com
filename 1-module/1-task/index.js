@@ -3,6 +3,11 @@
  * @param {number} n
  * @returns {number}
  */
-function factorial(n) {
 
-}
+function factorial(n) {
+  let result = 1;
+  while(n) result *= n--;
+
+  return (result);
+} alert(factorial(2));
+
