@@ -23,4 +23,3 @@ function sumSalary(sal) {
 }
 console.log(sumSalary(salaries));
 
-
